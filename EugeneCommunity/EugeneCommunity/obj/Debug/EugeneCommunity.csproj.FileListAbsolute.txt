@@ -1,0 +1,220 @@
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\EugeneCommunity.dll.config
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\EugeneCommunity.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\EugeneCommunity.pdb
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Antlr3.Runtime.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\EntityFramework.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\EntityFramework.SqlServer.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Newtonsoft.Json.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Owin.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.Helpers.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.Mvc.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.Optimization.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.Razor.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.WebPages.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.WebPages.Razor.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\WebGrease.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.Helpers.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.Mvc.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.Optimization.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.Razor.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.WebPages.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\System.Web.WebPages.Razor.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Antlr3.Runtime.pdb
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Newtonsoft.Json.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\EntityFramework.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\EntityFramework.SqlServer.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\obj\Debug\EugeneCommunity.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\obj\Debug\EugeneCommunity.pdb
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week2\EugeneCommunity - Copy\EugeneCommunity\obj\Debug\EugeneCommunity.csprojResolveAssemblyReference.cache
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\EugeneCommunity.dll.config
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\EugeneCommunity.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\EugeneCommunity.pdb
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Antlr3.Runtime.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\EntityFramework.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\EntityFramework.SqlServer.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Newtonsoft.Json.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Owin.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.Helpers.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.Mvc.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.Optimization.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.Razor.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Razor.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\WebGrease.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.Helpers.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.Mvc.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.Optimization.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.Razor.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Razor.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Antlr3.Runtime.pdb
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Newtonsoft.Json.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\EntityFramework.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\EntityFramework.SqlServer.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.csprojResolveAssemblyReference.cache
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.pdb
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\EugeneCommunity.dll.config
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\EugeneCommunity.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\EugeneCommunity.pdb
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Antlr3.Runtime.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\EntityFramework.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\EntityFramework.SqlServer.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Newtonsoft.Json.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Owin.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.Helpers.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.Mvc.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.Optimization.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.Razor.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Razor.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\WebGrease.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.Helpers.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.Mvc.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.Optimization.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.Razor.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Razor.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Antlr3.Runtime.pdb
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Newtonsoft.Json.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\EntityFramework.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\EntityFramework.SqlServer.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.csprojResolveAssemblyReference.cache
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.pdb
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\EugeneCommunity.dll.config
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\EugeneCommunity.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\EugeneCommunity.pdb
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Antlr3.Runtime.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\EntityFramework.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\EntityFramework.SqlServer.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Newtonsoft.Json.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Owin.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.Helpers.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.Mvc.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.Optimization.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.Razor.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Razor.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\WebGrease.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.Helpers.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.Mvc.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.Optimization.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.Razor.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\System.Web.WebPages.Razor.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Antlr3.Runtime.pdb
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Newtonsoft.Json.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\EntityFramework.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\EntityFramework.SqlServer.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.dll
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.pdb
+C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.csprojResolveAssemblyReference.cache
