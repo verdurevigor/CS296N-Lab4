@@ -11,6 +11,9 @@
     <h4>Topic</h4>
     <h2>@Html.DisplayFor(model => model.Name)</h2>
     <hr />
+    <p>
+        @Html.ActionLink("Make a Post", "Create", "Messages")
+    </p>
     <table class="table table-striped">
         <tr>
             <th>Date</th>       <!-- I am unsure how to get the DisplayNameFor the Posts properties -->

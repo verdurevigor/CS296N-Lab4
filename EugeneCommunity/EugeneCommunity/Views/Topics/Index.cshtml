@@ -1,14 +1,14 @@
-﻿@model IEnumerable<EugeneCommunity.Models.Topic>
+﻿@model IEnumerable<EugeneCommunity.Models.TopicViewModel>
 
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Community Forum</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New Topic", "Create")
 </p>
 <table class="table">
     <tr>
@@ -24,9 +24,7 @@
             @Html.DisplayFor(modelItem => item.Name)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.TopicId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.TopicId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.TopicId })
+            @Html.ActionLink("View Posts", "Details", new { id=item.TopicId })
         </td>
     </tr>
 }

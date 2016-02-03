@@ -17,7 +17,16 @@ namespace EugeneCommunity.Controllers
         // GET: Topics
         public ActionResult Index()
         {
-            return View(db.Topics.ToList());
+            var topic = (from t in db.Topics
+                        select new TopicViewModel
+                        {
+                            TopicId = t.TopicId,
+                            Name = t.Name,
+                            // Add list of messages
+                            Posts = (from p in db.Messages
+                                    select p).ToList()
+                        }).ToList();
+            return View(topic);
         }
 
         // GET: Topics/Details/5
@@ -32,47 +41,20 @@ namespace EugeneCommunity.Controllers
             // Then pass this topic with list of messages to the View.
 
             TopicViewModel topic = new TopicViewModel();
-            /*topic = (from t in db.Topics
-                     where t.TopicId == id
-                     select new TopicViewModel { 
-                        TopicId = t.TopicId,
-                        Name = t.Name,
-                        Posts = new List<Message> {
-                            from m in db.Messages
-                            where m.TopicId == id
-                            select m
-                        }.FindAll()
-                     }).FirstOrDefault();*/
+
             topic = (from t in db.Topics
-                     where t.TopicId == id
-                     select new TopicViewModel
-                     {
-                         TopicId = t.TopicId,
-                         Name = t.Name,
-                         // attempting to add list of messages here
-                         Posts = (from p in db.Messages
-                                  where p.TopicId == id
-                                  select p).ToList()
-                     }).FirstOrDefault();
-            /*List<Message> p = new List<Message>();
-            var messagesQuery = from m in db.Messages
-                  where m.TopicId == id
-                  select m;
+                        where t.TopicId == id
+                        select new TopicViewModel
+                        {
+                            TopicId = t.TopicId,
+                            Name = t.Name,
+                            // Add list of messages
+                            Posts = (from p in db.Messages
+                                    where p.TopicId == id
+                                    orderby p.Date descending
+                                    select p).ToList()
+                        }).FirstOrDefault();
 
-            foreach (var message in messagesQuery)
-            {
-                p.Add(message);
-            }*/
-
-            // Attempting to query without an execution foreach statement -- Works!
-            /* Now attempting to get list of books in single linq query above.
-            List<Message> me = (from m in db.Messages
-                                where m.TopicId == id
-                                select m).ToList();
-            
-            topic.Posts = me;
-*/         
-            //Topic topic = db.Topics.Find(id);
             if (topic == null)
             {
                 return HttpNotFound();

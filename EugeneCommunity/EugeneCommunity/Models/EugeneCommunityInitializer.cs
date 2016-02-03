@@ -22,7 +22,7 @@ namespace EugeneCommunity.Models
             context.Messages.Add(new Message { 
                 MessageId = 1,
                 TopicId = 1,
-                Body = "HUB (Hopwors Urban Brewery) makes my favorite IPA as of now. They source a single hop called the Simcoe, it's grown in Washington. Not to bitter, but a smooth, crisp flavor jumps out at you. I love all the organic beer that HUB crafts. Give it a try!",
+                Body = "HUB (Hopworks Urban Brewery) makes my favorite IPA as of now. They source a single hop called the Simcoe, it's grown in Washington. Not to bitter, but a smooth, crisp flavor jumps out at you. I love all the organic beer that HUB crafts. Give it a try!",
                 Date = DateTime.Now.AddHours(2),
                 MemberId = 1
             });
