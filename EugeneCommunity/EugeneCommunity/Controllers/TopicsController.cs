@@ -18,7 +18,7 @@ namespace EugeneCommunity.Controllers
         public ActionResult Index()
         {
             var topic = (from t in db.Topics
-                        select new TopicViewModel
+                        select new TopicViewModel   // Unnecessary to get TopicViewModel unless I am to count posts or order by post date
                         {
                             TopicId = t.TopicId,
                             Name = t.Name,

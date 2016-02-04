@@ -127,3 +127,45 @@ C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\Eugene
 C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.dll
 C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week5\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.pdb
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\EugeneCommunity.Tests.dll.config
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\EugeneCommunity.Tests.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\EugeneCommunity.Tests.pdb
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\EugeneCommunity.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Owin.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\EugeneCommunity.pdb
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.pdb

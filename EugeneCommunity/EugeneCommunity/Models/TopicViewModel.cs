@@ -8,10 +8,12 @@ namespace EugeneCommunity.Models
     public class TopicViewModel
     {
         List<Message> posts = new List<Message>();
-        public virtual int TopicId { get; set; }
-        public virtual string Name { get; set; }
+        // Using virtual keyword is NOT necessary with ViewModels! Ok in domain model though.
+        // Adding virtual means the propety isn't instantiated until it is set.
+        public int TopicId { get; set; }
+        public string Name { get; set; }
 
-        public virtual List<Message> Posts
+        public List<Message> Posts
         {
             get { return posts; }
             set { posts = value; }
