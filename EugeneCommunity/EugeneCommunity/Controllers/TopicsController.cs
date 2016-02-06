@@ -21,11 +21,17 @@ namespace EugeneCommunity.Controllers
                         select new TopicViewModel   // Unnecessary to get TopicViewModel unless I am to count posts or order by post date
                         {
                             TopicId = t.TopicId,
-                            Name = t.Name,
+                            Title = t.Title,
                             // Add list of messages
                             Posts = (from p in db.Messages
-                                    select p).ToList()
+                                    select p).ToList(),
+                            // Date topic by most recent post for proper ordering
+                            LastPost = (from p in db.Messages
+                                        where p.TopicId == t.TopicId
+                                        orderby p.Date
+                                        select p.Date).FirstOrDefault()
                         }).ToList();
+            topic.OrderBy(t => t.LastPost);
             return View(topic);
         }
 
@@ -47,7 +53,7 @@ namespace EugeneCommunity.Controllers
                         select new TopicViewModel
                         {
                             TopicId = t.TopicId,
-                            Name = t.Name,
+                            Title = t.Title,
                             // Add list of messages
                             Posts = (from p in db.Messages
                                     where p.TopicId == id

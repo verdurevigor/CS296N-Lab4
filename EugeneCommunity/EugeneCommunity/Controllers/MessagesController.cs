@@ -17,7 +17,24 @@ namespace EugeneCommunity.Controllers
         // GET: Messages
         public ActionResult Index()
         {
-            return View(db.Messages.ToList());
+            // Query db for list of messages, attaching user and subject to the message
+            var messages = (from m in db.Messages
+                            orderby m.Date
+                            select new MessageViewModel
+                            {
+                                MessageId = m.MessageId,
+                                Body = m.Body,
+                                Date = m.Date,
+                                Subject = (from t in db.Topics
+                                           where m.TopicId == t.TopicId
+                                           select t).FirstOrDefault(),
+                                User = (from u in db.Members
+                                        where m.MemberId == u.MemberId
+                                        select u).FirstOrDefault()
+                            }).ToList();
+            // Order messages by most recent            Not sure if this is working...
+            messages.OrderBy(m => m.Date);
+            return View(messages);
         }
 
         // GET: Messages/Details/5
@@ -27,7 +44,21 @@ namespace EugeneCommunity.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Message message = db.Messages.Find(id);
+            // Query db for message matching id parameter and include Member and Topic
+            var message = (from m in db.Messages
+                            where id == m.MessageId
+                            select new MessageViewModel
+                            {
+                                MessageId = m.MessageId,
+                                Body = m.Body,
+                                Date = m.Date,
+                                Subject = (from t in db.Topics
+                                           where m.TopicId == t.TopicId
+                                           select t).FirstOrDefault(),
+                                User = (from u in db.Members
+                                        where m.MemberId == u.MemberId
+                                        select u).FirstOrDefault()
+                            }).FirstOrDefault();
             if (message == null)
             {
                 return HttpNotFound();
@@ -38,6 +69,8 @@ namespace EugeneCommunity.Controllers
         // GET: Messages/Create
         public ActionResult Create()
         {
+            // Use the ViewBag to pass a collection of Topic objects for the dropdownlist
+            ViewBag.CurrentTopics = new SelectList(db.Topics.OrderBy(s => s.Title), "TopicId", "Title");
             return View();
         }
 

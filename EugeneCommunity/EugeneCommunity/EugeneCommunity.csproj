@@ -173,6 +173,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Member.cs" />
     <Compile Include="Models\Message.cs" />
+    <Compile Include="Models\MessageViewModel.cs" />
     <Compile Include="Models\News.cs" />
     <Compile Include="Models\Topic.cs" />
     <Compile Include="Models\TopicViewModel.cs" />
