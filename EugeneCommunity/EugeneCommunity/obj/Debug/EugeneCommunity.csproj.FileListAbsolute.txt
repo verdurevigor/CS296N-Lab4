@@ -272,3 +272,4 @@ C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity\bin\
 C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.dll
 C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.pdb
+C:\Users\Brody\Documents\GitHub\CS296N-Lab4\EugeneCommunity\EugeneCommunity\obj\Debug\EugeneCommunity.csprojResolveAssemblyReference.cache
