@@ -113,9 +113,10 @@ namespace EugeneCommunity.Controllers
 
                 // Add and save Message to db
                 db.Messages.Add(message);
-
                 db.SaveChanges();
-                return RedirectToAction("Index");
+
+                // Redirect user to the forum topic which they just added a message to
+                return RedirectToAction("Details", "Topics", new { id = topic.TopicId });
             }
 
             return View(messageVm);
@@ -155,15 +156,22 @@ namespace EugeneCommunity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "MessageId,Title,Body,Date")] Message message)
+        public ActionResult Edit([Bind(Include = "MessageId,Body,Date,Subject,User")] MessageViewModel messageVm)
         {
             if (ModelState.IsValid)
             {
+                Message message = new Message() { 
+                    MemberId = messageVm.MessageId,
+                    TopicId = messageVm.Subject.TopicId,
+                    MessageId = messageVm.MessageId,
+                    Date = DateTime.Now,
+                    Body = messageVm.Body               
+                };
                 db.Entry(message).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(message);
+            return View(messageVm);
         }
 
         // GET: Messages/Delete/5

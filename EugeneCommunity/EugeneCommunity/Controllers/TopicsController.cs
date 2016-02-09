@@ -17,6 +17,7 @@ namespace EugeneCommunity.Controllers
         // GET: Topics
         public ActionResult Index()
         {
+            // List of TopicViewModels
             var topic = (from t in db.Topics
                         select new TopicViewModel   // Unnecessary to get TopicViewModel unless I am to count posts or order by post date
                         {
@@ -24,14 +25,15 @@ namespace EugeneCommunity.Controllers
                             Title = t.Title,
                             // Add list of messages
                             Posts = (from p in db.Messages
-                                    select p).ToList(),
+                                     where t.TopicId == p.TopicId
+                                     select p).ToList(),
                             // Date topic by most recent post for proper ordering
                             LastPost = (from p in db.Messages
                                         where p.TopicId == t.TopicId
                                         orderby p.Date
                                         select p.Date).FirstOrDefault()
                         }).ToList();
-            topic.OrderBy(t => t.LastPost);
+            topic.OrderBy(t => t.LastPost);     // TODO: this ordering function is not creating correct output...
             return View(topic);
         }
 

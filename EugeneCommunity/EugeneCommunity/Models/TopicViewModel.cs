@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -13,6 +14,7 @@ namespace EugeneCommunity.Models
         public int TopicId { get; set; }
         public string Title { get; set; }
         // This property should be set by querying the posts for the most recent dated message
+        [Display(Name = "Last Post")]
         public DateTime LastPost { get; set; }
 
         public List<Message> Posts
