@@ -71,6 +71,9 @@ namespace EugeneCommunity.Controllers
         // GET: Topics/Create
         public ActionResult Create()
         {
+            // For now, send a SelectList of users for client to use as an identity
+            ViewBag.CurrentUsers = new SelectList(db.Members.OrderBy(m => m.UserName), "MemberId", "UserName");
+
             return View();
         }
 
@@ -79,16 +82,24 @@ namespace EugeneCommunity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "TopicId,Name")] Topic topic)
+        public ActionResult Create([Bind(Include = "MessageId,Body,Date,Subject,User")] MessageViewModel messageVm, int CurrentUsers)
         {
             if (ModelState.IsValid)
             {
+                // Add new Topic to db, then create a message under that topic
+
+                Topic topic = new Topic() { Title = messageVm.Subject.Title };
                 db.Topics.Add(topic);
                 db.SaveChanges();
+
+                Message message = new Message() { Body = messageVm.Body, Date = DateTime.Now, MemberId = CurrentUsers, TopicId = topic.TopicId };
+                db.Messages.Add(message);
+                db.SaveChanges();
+
                 return RedirectToAction("Index");
             }
-
-            return View(topic);
+            // If form is invalid repopulate form with sent data
+            return View(messageVm);
         }
 
         // GET: Topics/Edit/5

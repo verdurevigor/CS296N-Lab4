@@ -1,4 +1,4 @@
-﻿@model EugeneCommunity.Models.Message
+﻿@model EugeneCommunity.Models.MessageViewModel
 
 @{
     ViewBag.Title = "Delete";
@@ -11,13 +11,29 @@
 <div>
     <h4>Message</h4>
     <hr />
-    <dl class="dl-horizontal">
+        <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Subject)
+            @Html.DisplayNameFor(model => model.Date)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Subject)
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.UserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject.Title)
         </dd>
 
         <dt>
@@ -26,14 +42,6 @@
 
         <dd>
             @Html.DisplayFor(model => model.Body)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Date)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Date)
         </dd>
 
     </dl>
