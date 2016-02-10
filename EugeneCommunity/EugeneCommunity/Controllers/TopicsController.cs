@@ -124,7 +124,7 @@ namespace EugeneCommunity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "TopicId,Name")] Topic topic)
+        public ActionResult Edit([Bind(Include = "TopicId,Title")] Topic topic)
         {
             if (ModelState.IsValid)
             {

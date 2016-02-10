@@ -85,9 +85,8 @@ namespace EugeneCommunity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "MessageId,Title,Body,Date,TopicId,MemberId")] MessageViewModel messageVm, int? CurrentTopics, int CurrentUsers)
+        public ActionResult Create([Bind(Include = "MessageId,Title,Body,Date,TopicId,MemberId")] MessageViewModel messageVm, int? CurrentTopics, int? CurrentUsers)
         {           
-            
             if (ModelState.IsValid)
             {
                 // Check if the topic is new, if so create and save a new topic to the database before adding the TopicId to the new message
@@ -107,7 +106,7 @@ namespace EugeneCommunity.Controllers
                 {
                     Body = messageVm.Body,
                     Date = DateTime.Now,
-                    MemberId = CurrentUsers,
+                    MemberId = (int)CurrentUsers,       // Cast possibly null int, app will still crash if it is not filled when form is submitted. TODO: modify when Member is stored in session
                     TopicId = topic.TopicId
                 };
 
@@ -148,6 +147,9 @@ namespace EugeneCommunity.Controllers
             }
             // Create a SelectList to pass the subject to the View; final parameter gives the default value to show in view.
             ViewBag.CurrentTopics = new SelectList(db.Topics.OrderBy(s => s.Title), "TopicId", "Title", message.Subject.TopicId);
+
+            // For now, send a SelectList of users for client to use as an identity
+            ViewBag.CurrentUsers = new SelectList(db.Members.OrderBy(m => m.UserName), "MemberId", "UserName");
             return View(message);
         }
 
@@ -156,21 +158,40 @@ namespace EugeneCommunity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "MessageId,Body,Date,Subject,User")] MessageViewModel messageVm)
+        public ActionResult Edit([Bind(Include = "MessageId,Body,Date,Subject,User")] MessageViewModel messageVm, int? CurrentUsers)
         {
             if (ModelState.IsValid)
             {
-                Message message = new Message() { 
-                    MemberId = messageVm.MessageId,
-                    TopicId = messageVm.Subject.TopicId,
-                    MessageId = messageVm.MessageId,
-                    Date = DateTime.Now,
-                    Body = messageVm.Body               
-                };
-                db.Entry(message).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
+                if (messageVm.User.MemberId == CurrentUsers)
+                {
+                    Message message = new Message()
+                    {
+                        MemberId = messageVm.User.MemberId,
+                        TopicId = messageVm.Subject.TopicId,
+                        MessageId = messageVm.MessageId,
+                        Date = DateTime.Now,
+                        Body = messageVm.Body
+                    };
+
+                    db.Entry(message).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                else//Not same user who posted
+                {
+                    // Create a SelectList to pass the subject to the View; final parameter gives the default value to show in view.
+                    ViewBag.CurrentTopics = new SelectList(db.Topics.OrderBy(s => s.Title), "TopicId", "Title", messageVm.Subject.TopicId);
+
+                    // For now, send a SelectList of users for client to use as an identity
+                    ViewBag.CurrentUsers = new SelectList(db.Members.OrderBy(m => m.UserName), "MemberId", "UserName");
+                    return View(messageVm);
+                }
+            }            
+            // Create a SelectList to pass the subject to the View; final parameter gives the default value to show in view.
+            ViewBag.CurrentTopics = new SelectList(db.Topics.OrderBy(s => s.Title), "TopicId", "Title", messageVm.Subject.TopicId);
+
+            // For now, send a SelectList of users for client to use as an identity
+            ViewBag.CurrentUsers = new SelectList(db.Members.OrderBy(m => m.UserName), "MemberId", "UserName");
             return View(messageVm);
         }
 
@@ -212,6 +233,51 @@ namespace EugeneCommunity.Controllers
             db.Messages.Remove(message);
             db.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        // GET: Books/Search
+        public ActionResult Search()
+        {
+            return View();
+        }
+
+        // POST: Books/Search/searchString
+        [HttpPost]
+        public ActionResult Search(string searchTerm)
+        {
+            // Get the books that matches the searchTerm
+            List<MessageViewModel> messageVms = (from m in db.Messages
+                                                 where m.Body.Contains(searchTerm)
+                                                 select new MessageViewModel()
+                                                 {
+                                                     MessageId = m.MessageId,
+                                                     Body = m.Body,
+                                                     Date = m.Date,
+                                                     Subject = (from t in db.Topics
+                                                                where m.TopicId == t.TopicId
+                                                                select new Topic() {
+                                                                    TopicId = t.TopicId,
+                                                                    Title = t.Title
+                                                                }).FirstOrDefault(),
+                                                    User = (from u in db.Members
+                                                            where u.MemberId == m.MessageId
+                                                            select new Member()
+                                                            {
+                                                                MemberId = u.MemberId,
+                                                                UserName = u.UserName
+                                                            }).FirstOrDefault()
+                                                 }).ToList();
+
+            if (messageVms.Count() > 0)
+            {
+                return View("Details", messageVms);  // Return to the view, lsit of MessageViewModels
+            }
+            // Otherwise, nothing was found so return................................
+            else
+            {
+                return View("Details", messageVms);
+            }
+            // Partial Views are the perfect thing to do when trying to show the search result page based on the index. But for now just make a new View for the return.
         }
 
         protected override void Dispose(bool disposing)
