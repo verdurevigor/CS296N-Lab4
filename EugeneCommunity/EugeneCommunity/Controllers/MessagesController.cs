@@ -132,8 +132,9 @@ namespace EugeneCommunity.Controllers
             MessageViewModel message = (from m in db.Messages
                                         where m.MessageId == id
                                         select new MessageViewModel(){
+                                            MessageId = m.MessageId,
                                             Body = m.Body,
-                                            Date = m.Date,
+                                            //Date = m.Date, Date is not required to present on the View so take it out.
                                             Subject = (from t in db.Topics
                                                        where m.TopicId == t.TopicId
                                                        select t).FirstOrDefault(),
@@ -158,20 +159,20 @@ namespace EugeneCommunity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "MessageId,Body,Date,Subject,User")] MessageViewModel messageVm, int? CurrentUsers)
+        public ActionResult Edit([Bind(Include = "MessageId,Body,Date,Subject,User")] MessageViewModel messageVm, int? CurrentUsers, int? CurrentTopics)
         {
             if (ModelState.IsValid)
             {
-                if (messageVm.User.MemberId == CurrentUsers)
+                Message message = (from m in db.Messages
+                             where m.MessageId == messageVm.MessageId
+                             select m).FirstOrDefault();
+
+                if (message.MemberId == CurrentUsers)
                 {
-                    Message message = new Message()
-                    {
-                        MemberId = messageVm.User.MemberId,
-                        TopicId = messageVm.Subject.TopicId,
-                        MessageId = messageVm.MessageId,
-                        Date = DateTime.Now,
-                        Body = messageVm.Body
-                    };
+                    // Update content of message with MessageViewModel passed from View
+                    message.TopicId = (int)CurrentTopics;
+                    message.Body = messageVm.Body;
+                    message.Date = DateTime.Now;
 
                     db.Entry(message).State = EntityState.Modified;
                     db.SaveChanges();
@@ -179,16 +180,12 @@ namespace EugeneCommunity.Controllers
                 }
                 else//Not same user who posted
                 {
-                    // Create a SelectList to pass the subject to the View; final parameter gives the default value to show in view.
-                    ViewBag.CurrentTopics = new SelectList(db.Topics.OrderBy(s => s.Title), "TopicId", "Title", messageVm.Subject.TopicId);
-
-                    // For now, send a SelectList of users for client to use as an identity
-                    ViewBag.CurrentUsers = new SelectList(db.Members.OrderBy(m => m.UserName), "MemberId", "UserName");
-                    return View(messageVm);
+                    // Redirect bad user to error page and let them suffer!
+                    return Redirect("/Error");
                 }
-            }            
+            }// Invalid ModelState
             // Create a SelectList to pass the subject to the View; final parameter gives the default value to show in view.
-            ViewBag.CurrentTopics = new SelectList(db.Topics.OrderBy(s => s.Title), "TopicId", "Title", messageVm.Subject.TopicId);
+            ViewBag.CurrentTopics = new SelectList(db.Topics.OrderBy(s => s.Title), "TopicId", "Title");    // Because a topic wasn't associated with the MessageView object a topicId cannot be preselected after going through the POST Edit method...
 
             // For now, send a SelectList of users for client to use as an identity
             ViewBag.CurrentUsers = new SelectList(db.Members.OrderBy(m => m.UserName), "MemberId", "UserName");
@@ -245,38 +242,25 @@ namespace EugeneCommunity.Controllers
         [HttpPost]
         public ActionResult Search(string searchTerm)
         {
-            // Get the books that matches the searchTerm
-            List<MessageViewModel> messageVms = (from m in db.Messages
-                                                 where m.Body.Contains(searchTerm)
-                                                 select new MessageViewModel()
-                                                 {
-                                                     MessageId = m.MessageId,
-                                                     Body = m.Body,
-                                                     Date = m.Date,
-                                                     Subject = (from t in db.Topics
-                                                                where m.TopicId == t.TopicId
-                                                                select new Topic() {
-                                                                    TopicId = t.TopicId,
-                                                                    Title = t.Title
-                                                                }).FirstOrDefault(),
-                                                    User = (from u in db.Members
-                                                            where u.MemberId == m.MessageId
-                                                            select new Member()
-                                                            {
-                                                                MemberId = u.MemberId,
-                                                                UserName = u.UserName
-                                                            }).FirstOrDefault()
-                                                 }).ToList();
+            // Get the messages that matches the searchTerm
+            var messageVms = (from m in db.Messages
+                              where m.Body.Contains(searchTerm)
+                                select new MessageViewModel()
+                                {
+                                    MessageId = m.MessageId,
+                                    Body = m.Body,
+                                    Date = m.Date,
+                                    Subject = (from t in db.Topics
+                                            where m.TopicId == t.TopicId
+                                            select t).FirstOrDefault(),
+                                    User = (from u in db.Members
+                                            where u.MemberId == m.MessageId
+                                            select u).FirstOrDefault()
+                                }).ToList();
+            //  Return the search term to display to user
+            ViewBag.SearchTerm = searchTerm;
+            return View("Search", messageVms);
 
-            if (messageVms.Count() > 0)
-            {
-                return View("Details", messageVms);  // Return to the view, lsit of MessageViewModels
-            }
-            // Otherwise, nothing was found so return................................
-            else
-            {
-                return View("Details", messageVms);
-            }
             // Partial Views are the perfect thing to do when trying to show the search result page based on the index. But for now just make a new View for the return.
         }
 
