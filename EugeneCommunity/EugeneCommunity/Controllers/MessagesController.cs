@@ -61,7 +61,8 @@ namespace EugeneCommunity.Controllers
                             }).FirstOrDefault();
             if (message == null)
             {
-                return HttpNotFound();
+                // Redirect bad user to error page and let them suffer!
+                return Redirect("/Error");
             }
             return View(message);
         }
@@ -144,7 +145,8 @@ namespace EugeneCommunity.Controllers
                                         }).FirstOrDefault();
             if (message == null)
             {
-                return HttpNotFound();
+                // Redirect bad user to error page and let them suffer!
+                return Redirect("/Error");
             }
             // Create a SelectList to pass the subject to the View; final parameter gives the default value to show in view.
             ViewBag.CurrentTopics = new SelectList(db.Topics.OrderBy(s => s.Title), "TopicId", "Title", message.Subject.TopicId);
@@ -216,7 +218,8 @@ namespace EugeneCommunity.Controllers
                            }).FirstOrDefault();
             if (message == null)
             {
-                return HttpNotFound();
+                // Redirect bad user to error page and let them suffer!
+                return Redirect("/Error");
             }
             return View(message);
         }
