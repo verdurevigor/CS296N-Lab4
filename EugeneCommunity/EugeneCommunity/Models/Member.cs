@@ -10,9 +10,15 @@ namespace EugeneCommunity.Models
     {
         [Key]
         public virtual int MemberId { get; set; }
+        [Required(ErrorMessage = "{0} is required.")]
         [Display(Name = "User Name")]
         public virtual string UserName { get; set; }
+        [Required(ErrorMessage = "{0} is required.")]
+        [RegularExpression(@"[A-Za-z0-9._%+-]+@[A-Za-z0-9._%+-]+\.[A-Za-z]{2,4}", ErrorMessage = "Please enter a valid {0}.")]
         public virtual string Email { get; set; }
+        [Required(ErrorMessage = "{0} is required.")]
+        [StringLength(16, MinimumLength = 6, ErrorMessage = "{0} must be between 6 and 16 characters")]
+        [DataType(DataType.Password)]
         public virtual string Password { get; set; }
         public virtual bool IsAdmin { get; set; }
     }

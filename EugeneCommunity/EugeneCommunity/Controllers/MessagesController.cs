@@ -118,6 +118,10 @@ namespace EugeneCommunity.Controllers
                 // Redirect user to the forum topic which they just added a message to
                 return RedirectToAction("Details", "Topics", new { id = topic.TopicId });
             }
+            // If form is not completed properly, repopulate the dropdownlist for members and topics
+            ViewBag.CurrentUsers = new SelectList(db.Members.OrderBy(m => m.UserName), "MemberId", "UserName");
+            ViewBag.CurrentTopics = new SelectList(db.Topics.OrderBy(s => s.Title), "TopicId", "Title");
+
 
             return View(messageVm);
         }
@@ -163,7 +167,7 @@ namespace EugeneCommunity.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "MessageId,Body,Date,Subject,User")] MessageViewModel messageVm, int? CurrentUsers, int? CurrentTopics)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid && CurrentTopics != null)
             {
                 Message message = (from m in db.Messages
                              where m.MessageId == messageVm.MessageId
